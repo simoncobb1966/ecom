@@ -2,6 +2,49 @@
   text-align: center;
 }
 
+.buttona {
+  margin-bottom: 5px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.thumbnail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.productnamebox {
+  border: 1px solid;
+  padding-top: 2px;
+  box-shadow: 5px 5px rgb(158, 153, 110);
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 90%;
+  border-style: solid;
+  border-color: black;
+  background-color: yellow;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.white {
+  background-color: white;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.green {
+  background-color: #1eff00;
+}
+
 .centered {
   display: flex;
   flex-direction: column;
@@ -13,13 +56,22 @@
   background-color: yellow
 }
 
-.header {
-  background-color: black;
-  color: white;
+.banner {
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.innerarea {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.maindiv {
+  background-color: yellow;
 }
 
 .footer {
