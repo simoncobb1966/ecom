@@ -6,20 +6,16 @@ import Button from '@material-ui/core/Button';
 
 class ProductSmall extends Component {
 
-
-
-
     render() {
-        const gf = require('./images/goldfinger.jpg');
-
+        var dir = require('./images/product/' + this.props.jb.image);
 
         return (
             <div className="col-sm-4 col-med-4 col-lg-4 white centered">
                 <div className="productnamebox">
-                    <h4>Goldfinger</h4>
+                    <h4>{this.props.jb.title}</h4>
                 </div>
                 <div>
-                    <img className="img-fluid" src={gf} alt="goldfinger"></img>
+                    <img className="img-fluid" src={dir} alt={this.props.jb.title}></img>
                 </div>
 
                 <div>
